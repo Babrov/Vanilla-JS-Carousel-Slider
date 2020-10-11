@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e586727d0a.js" crossorigin="anonymous"></script>
+    <title>JS carousel</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="heading">Nature Carousel</h1>
+        <div class="carousel">
+            <img src="images/arrow-prev.jpg" class="prev" id="prev_button" alt="">
+            <img src="images/arrow-next.jpg" class="next" id="next_button" alt="">
+            <div class="carousel__content">
+                <img class="image show" src="images/1.jpg" alt="">
+                <img class="image" src="images/2.jpg" alt="">
+                <img class="image" src="images/3.jpg" alt="">
+                <img class="image" src="images/4.jpg" alt="">
+            </div>
+            <span class="pause" id="pause">
+                <i class="fas fa-pause"></i>
+            </span>
+            <span class="start" id="start">
+                <i class="fas fa-play"></i>
+            </span>
+        </div>
+        <div class="modal" id="modal">
+            <span class="close" id="close"><i class="fas fa-times"></i></span>
+            <img class="modal_image" id="modal_image" src="" alt="">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
